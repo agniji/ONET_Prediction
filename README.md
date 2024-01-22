@@ -1,8 +1,5 @@
 # ONET_Prediction
 Predict ONET id, given a job posting
-Describe your approach, key assumptions, metrics and conclusions.
-Importantly, describe how you would expand this analysis were it a complete
-project with a larger timeline.
 
 Approach:
 Use a pretrained model to use the concatenated TITLE_RAW & BODY of the job posting to predict the ONET id associated with that posting. 
