@@ -1,6 +1,8 @@
 # ONET_Prediction
 Predict ONET id, given a job posting
 
+[![Python App test with Github >Actions](https://github.com/agniji/ONET_Prediction/actions/workflows/main.yml/badge.svg)](https://github.com/agniji/ONET_Prediction/actions/workflows/main.yml)
+
 ## Approach:
 Use a pretrained model to use the concatenated TITLE_RAW & BODY of the job posting to predict the ONET id associated with that posting. 
 HuggingFace library SentenceTransformer('all-MiniLM-L6-v2') was used to determine the simialrity between each supplied text body with 699 available labels, which are the ONET_NAME fields. The resulting scores from the 699 inferences are sorted in ascending order to select the top 10 predictions. Eventually, the ONET_ID is matched with the ONET_NAME and the list of top 10 ONET ids are output. 
