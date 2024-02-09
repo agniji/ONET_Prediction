@@ -25,4 +25,4 @@ The model is only about 58% accurate, with MRR scores as low as 36%. Hence, more
 3. Trying out two more models independently - with TITLE_RAW & BODY, and compare the performance with the concatenated text input model.
 4. To expand this analysis, we need to also be aware of using more efficient preprocessing options that can handle larger volumes of data. This model has limitations on the size of inputs. 
 
-* [Full Noebook:] https://github.com/agniji/ONET_Prediction/blob/main/ONET_Pred.ipynb
+* [Full Noebook:] (https://github.com/agniji/ONET_Prediction/blob/main/ONET_Pred.ipynb)
