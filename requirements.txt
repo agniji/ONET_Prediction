@@ -1,0 +1,13 @@
+pytest
+pylint
+Flake8
+Mypy
+Black
+autopep8
+isort
+coverage
+requests
+click
+nbval
+pytest-cov
+jupyter
